@@ -1,0 +1,17 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/15
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name" : "Praveen",
+    "subscribeToChannel" : "Sourav Kumar"
+}
+
+###
+DELETE http://localhost:3000/subscribers/61d5446b810d1873dc62c239
+
